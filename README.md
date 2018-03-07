@@ -24,7 +24,7 @@ Utilize o `RelativeLayout` para criar uma tela de exibição de notícia. A tela
 * Foto do autor, localizado embaixo do horário de postagem, localizado a esqueda
 * Contatos do autor (nome + email), localizado a direita da foto do autor, ocupando o restante da tela 
 
-### Comentários
+### Previsão do Tempo
 
 Utilize o `TableLayout` para criar uma tela de exibição da previsão do tempo dos últimos dias. A tela deverá apresentar a previsão diária, onde cada dia ocupará uma linha da tabela. Para cada dia, será necessário exibir o dia, um ícone com o resumo do tempo, e as temperaturas máxima e mínima para aquele dia. Utilize essa [imagem](http://www.inlovewithandroid.com/images/best-android-weather-app-yahoo-weather3.jpg) como referência.
 
