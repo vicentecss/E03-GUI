@@ -3,47 +3,25 @@
 Professor: João Eduardo Montandon
 
 
-O Android provê uma série de layouts definidos por padrão para criar as mais diversas telas. Cada  layout possui uma série de características que o torna adequado para uso em cada uma das várias situações existentes. 
+Como pré-requisito, esse exercício requer que você tenha terminado o exercício [anterior](https://github.com/COLTEC-TP/Android-E03-GUI/tree/layouts).
 
-Esse exercício tem como objetivo compreender os principais layouts existentes através da criação de telas que explorem seus respectivos rescursos. Sua tarefa será criar um aplicativo que demonstre o bom uso de cada um dos principais layouts existentes, conforme instruções abaixo.
+Caso você já tenha terminado, é necessário atualizar este branch com o código implementado. Para isso, execute o comando abaixo no diretório do projeto:
 
-### SplashScreen
+```
+$ git checkout widgets      # altera para o branch do exercício
+$ git merge layouts         # Atualiza o branch widgets com o conteúdo de layouts
+```
 
-As SplashScreen são telas que aparecem no momento em que o aplicativo está carregando. Utilize o `FrameLayout` para construir uma tela de carregamento. As telas de carregamento geralmente possuem uma imagem de fundo com um componente de carregamento a frente, conforme este [exemplo](https://dribbble.com/shots/1685679-Vaporware-Splash-Screen-Animation).
+## Utilizando Dialogs
 
-### Notícia
+Durante o preenchimento de um formulário, é uma boa prática exibir uma mensagem pedindo para que o usuário confirme o envio da mensagem, conforme esse [modelo](https://i.stack.imgur.com/wmgBG.png). No desenvolvimento de aplicativos para Android, geralmente essas mensagens de confirmação são codificadas por um `Dialog`.
 
-Utilize o `RelativeLayout` para criar uma tela de exibição de notícia. A tela deverá conter:
+Você deverá implementar uma mensagem de confirmação para o usuário utilizando a classe `AlertDialog`. O `AlertDialog` deverá ser exibido no momento em que o usuário clicar no botão para envio do comentário. 
 
-* Título da notícia no topo da tela
-* Subtítulo, posicionado embaixo do título
-* Nome do autor, posicionado embaixo do subítulo, ancorado a direita
-* Corpo da notícia, posicionado embaixo do autor
-* Horário de postagem da notícia, embaixo do corpo da notícia, ancorado a direita
-* Foto do autor, localizado embaixo do horário de postagem, localizado a esqueda
-* Contatos do autor (nome + email), localizado a direita da foto do autor, ocupando o restante da tela 
+Ainda, você deverá tratar as ambas as situações de confirmação e cancelamento do envio. Utilize `Toast` para exibir a mensagem de confirmação/cancelamento de envio do comentário.
 
-### Previsão do Tempo
+## Internacionalização
 
-Utilize o `TableLayout` para criar uma tela de exibição da previsão do tempo dos últimos dias. A tela deverá apresentar a previsão diária, onde cada dia ocupará uma linha da tabela. Para cada dia, será necessário exibir o dia, um ícone com o resumo do tempo, e as temperaturas máxima e mínima para aquele dia. Utilize essa [imagem](http://www.inlovewithandroid.com/images/best-android-weather-app-yahoo-weather3.jpg) como referência.
+Uma vez que seu app estiver disponível na Play Store, usuários de vários países podem baixar e utilizar seu aplicativo a qualquer momento. Por isso, o recurso de internacionalização é extremamente importante para o desenvolvimento de aplicaitvos móveis em geral.
 
-### Formulário
-
-Utilize o `LinearLayout` para criar uma tela de formulário de cadastro de um comentário de um aplicativo de avaliação de produtos. Essa tela deverá permitir ao usuário fornecer as seguintes informações:
-
-* Nome
-* E-mail
-* Comentário (campo de texto com várias linhas)
-* Nota (escala de 1 a 5)
-* Botão para submeter o formulário
-
-*OBS: Sua tela deverá organizar os layouts no formato horizontal!!*
-
-### Empacotando Tudo
-
-Altere a `MainActivity` do projeto incluindo uma série de botões que, ao serem clicados, redirecione para cada uma das telas criadas anteriormente.
- 
-
-
-
-
+Aplique os recursos de internacionalização nas telas de **Previsão do Tempo** e **Comentários** para que ele suporte duas línguas: português e inglês. Para isso, você precisará configurar seu projeto com arquivos `string.xml` para cada língua, e preenchê-los com os respectivos textos necessários para tradução.
