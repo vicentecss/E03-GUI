@@ -2,7 +2,6 @@
 
 Professor: João Eduardo Montandon
 
-## Explorando os Layouts
 
 O Android provê uma série de layouts definidos por padrão para criar as mais diversas telas. Cada  layout possui uma série de características que o torna adequado para uso em cada uma das várias situações existentes. 
 
