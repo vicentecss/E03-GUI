@@ -2,6 +2,16 @@
 
 Professor: João Eduardo Montandon
 
+## Configuraço do Ambiente
+
+Esta lista é composta por vários projetos, onde cada um está em seu branch específico. Para carregar o projeto dessa lista você deverá fazer o clone do seu fork e executar o seguinte comando:
+```
+$ cd Android-E03-GUI        # Acessar o diretório do projeto
+$ git checkout widgets      # altera para o branch do exercício
+```
+
+Em seguida, você deverá abrir o Android Studio e abrir o projeto através da opção `File > New > Import Project...`.
+
 ## Explorando os Layouts
 
 O Android provê uma série de layouts definidos por padrão para criar as mais diversas telas. Cada  layout possui uma série de características que o torna adequado para uso em cada uma das várias situações existentes. 
