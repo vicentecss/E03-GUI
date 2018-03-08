@@ -48,7 +48,7 @@ Utilize o `LinearLayout` para criar uma tela de formulário de cadastro de um co
 * Nota (escala de 1 a 5)
 * Botão para submeter o formulário
 
-*OBS: Sua tela deverá organizar os layouts no formato horizontal!!*
+*OBS: Sua tela deverá organizar os layouts no formato vertical!!*
 
 ### Empacotando Tudo
 
