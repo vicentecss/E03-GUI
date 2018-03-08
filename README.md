@@ -2,7 +2,7 @@
 
 Professor: João Eduardo Montandon
 
-## Configuraço do Ambiente
+## Configuração do Ambiente
 
 Esta lista é composta por vários projetos, onde cada um está em seu branch específico. Para carregar o projeto dessa lista você deverá fazer o clone do seu fork e executar o seguinte comando:
 ```
