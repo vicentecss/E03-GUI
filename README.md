@@ -7,7 +7,7 @@ Professor: João Eduardo Montandon
 Esta lista é composta por vários projetos, onde cada um está em seu branch específico. Para carregar o projeto dessa lista você deverá fazer o clone do seu fork e executar o seguinte comando:
 ```
 $ cd Android-E03-GUI        # Acessar o diretório do projeto
-$ git checkout widgets      # altera para o branch do exercício
+$ git checkout layouts      # altera para o branch do exercício
 ```
 
 Em seguida, você deverá abrir o Android Studio e abrir o projeto através da opção `File > New > Import Project...`.
