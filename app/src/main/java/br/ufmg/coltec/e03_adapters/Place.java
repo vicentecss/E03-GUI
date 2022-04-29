@@ -1,4 +1,4 @@
-package br.ufmg.coltec.tp.e03_adapters;
+package br.ufmg.coltec.e03_adapters;
 
 /**
  * Created by jemaf on 07/03/18.
