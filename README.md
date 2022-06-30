@@ -1,4 +1,4 @@
-# Android E03: Layouts
+# Android E03: Widgets
 
 Professor: João Eduardo Montandon
 
