@@ -36,7 +36,7 @@ Utilize o `RelativeLayout` para criar uma tela de exibição de notícia. A tela
 
 ### Previsão do Tempo
 
-Utilize o `TableLayout` para criar uma tela de exibição da previsão do tempo dos últimos dias. A tela deverá apresentar a previsão diária, onde cada dia ocupará uma linha da tabela. Para cada dia, será necessário exibir o dia, um ícone com o resumo do tempo, e as temperaturas máxima e mínima para aquele dia. Utilize essa [imagem](http://www.inlovewithandroid.com/images/best-android-weather-app-yahoo-weather3.jpg) como referência.
+Utilize o `TableLayout` para criar uma tela de exibição da previsão do tempo dos últimos dias. A tela deverá apresentar a previsão diária, onde cada dia ocupará uma linha da tabela. Para cada dia, será necessário exibir o dia, um ícone com o resumo do tempo, e as temperaturas máxima e mínima para aquele dia. Utilize essa [imagem](https://theconvergencezone.files.wordpress.com/2022/12/screen-shot-2022-12-13-at-8.23.19-pm.png) como referência.
 
 ### Formulário
 
