@@ -24,4 +24,4 @@ Ainda, você deverá tratar as ambas as situações de confirmação e cancelame
 
 Uma vez que seu app estiver disponível na Play Store, usuários de vários países podem baixar e utilizar seu aplicativo a qualquer momento. Por isso, o recurso de internacionalização é extremamente importante para o desenvolvimento de aplicaitvos móveis em geral.
 
-Aplique os recursos de internacionalização nas telas de **Previsão do Tempo** e **Comentários** para que ele suporte duas línguas: português e inglês. Para isso, você precisará configurar seu projeto com arquivos `string.xml` para cada língua, e preenchê-los com os respectivos textos necessários para tradução.
+Aplique os recursos de internacionalização nas telas de **Previsão do Tempo** e **Formulário** para que ele suporte duas línguas: português e inglês. Para isso, você precisará configurar seu projeto com arquivos `string.xml` para cada língua, e preenchê-los com os respectivos textos necessários para tradução.
