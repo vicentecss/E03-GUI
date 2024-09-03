@@ -1,8 +1,35 @@
 <resources>
-
     <!-- Base application theme. -->
     <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+    </style>
+    <style name="txt_name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name ="android:layout_marginLeft">15dp</item>
+        <item name="android:text">Um lugar qualquer</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="txt_description">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:text">Este é um lugar qualquer que serve alguma coisa</item>
+    </style>
+
+    <style name="txt_distance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:text">0.4 KM</item>
+
+    </style>
+
+    <style name="img_style">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:src">@drawable/ic_launcher_background</item>
     </style>
 
 </resources>
